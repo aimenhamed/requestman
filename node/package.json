@@ -1,0 +1,16 @@
+{
+  "name": "requestman-node",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node scripts/build.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.25.3",
+    "express": "^5.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
